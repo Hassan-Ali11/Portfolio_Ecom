@@ -1,0 +1,135 @@
+.HelpC{
+    margin-top: 200px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.HelpC .Upper{
+    margin-bottom: 40px;
+}
+.HelpC .Upper .Input{
+    width: 600px;
+    margin-left: 300px;
+    height: 30px;
+    border-radius: 30px;
+    transform: translateY(-20px);
+}
+.HelpC .Upper h1{
+    font-weight: 100;
+    font-size: 34px;
+    margin-left: 400px;
+}
+.HelpC .Middle .P1, .P2, .P3, .P4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}.HelpC .Middle .P1 .B1, .B2, .B3, .P2 .B1, .B2, .B3, .P3 .B1, .B2, .B3, .P4 .B1, .B2, .B3{
+    height: 270px;
+    width: 370px;
+    border: 1px solid gray;
+}
+.HelpC .Middle .P1 .B1, .B2, .B3{
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.HelpC .Middle .P1 .B1 h1, .B2 h1, .B3 h1{
+    font-size: 26px;
+    font-weight: 100;
+}
+.HelpC .Middle .P1 .B1 h3, .B2 h3, .B3 h3{
+    font-size: 16px;
+    font-weight: 100;
+}
+.HelpC .Middle .P1 .B1 h4, .B2 h4, .B3 h4{
+    font-size: 16px;
+    font-weight: 100;
+}
+.HelpC .Middle .P1-B1, .P1-B2 , .P1-B3{
+    height: 40px;
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+}
+
+.HelpC .Middle .P2 .B1, .B2, .B3 {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+
+.HelpC .Middle .P2 .B1 h1, .B2 h1, .B3 h1 {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.HelpC .Middle .P2 .B1 h3, .B2 h3, .B3 h3 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.HelpC .Middle .P2 .B1 h4, .B2 h4, .B3 h4 {
+    font-size: 16px;
+    font-weight: 100;
+}
+.HelpC .Middle .P2-B1, .P2-B2, .P2-B3 {
+    height: 40px;
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+}
+
+
+
+.HelpC .Middle .P3 .B1, .B2, .B3 {
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.HelpC .Middle .P3 .B1 h1, .B2 h1, .B3 h1 {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.HelpC .Middle .P3 .B1 h3, .B2 h3, .B3 h3 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.HelpC .Middle .P3 .B1 h4, .B2 h4, .B3 h4 {
+    font-size: 16px;
+    font-weight: 100;
+}
+.HelpC .Middle .P3-B1, .P3-B2, .P3-B3 {
+    height: 40px;
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+}
+
+
+
+.HelpC .Middle .P4 .B1, .B2, .B3 {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.HelpC .Middle .P4 .B1 h1, .B2 h1, .B3 h1 {
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.HelpC .Middle .P4 .B1 h3, .B2 h3, .B3 h3 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.HelpC .Middle .P4 .B1 h4, .B2 h4, .B3 h4 {
+    font-size: 16px;
+    font-weight: 100;
+}
+.HelpC .Middle .P4-B1, .P4-B2, .P4-B3 {
+    height: 40px;
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
+}

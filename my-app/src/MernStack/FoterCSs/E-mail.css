@@ -1,0 +1,78 @@
+.BusEmail{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.BusEmail .Prt1{
+    display: flex;
+    margin-top: 250px;
+}
+.BusEmail .Prt1 .Sid2 {
+    height: 370px;
+    width: 540px;
+    margin-left: 80px;
+}
+.BusEmail .Prt1 .Sid2 h1{
+    font-size: 16px;
+    color: #0B3D66;
+}
+.BusEmail .Prt1 .Sid2 h2{
+    font-size: 56px;
+    color:#0B3D66;
+    transform: translateY(-30px);
+}
+.BusEmail .Prt1 .Sid2 p{
+    font-size: 20px;
+    transform: translateY(-50px);
+}
+.BusEmail .Prt1 .Sid2 .Email-btn1 {
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
+    height: 48px;
+    width: 155px;
+    border-radius: 35px;
+    background-color: #0D3B66;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.BusEmail .Prt1 .Sid2 .Email-btn1:hover {
+    background-color: #ffffff;
+    color: #0D3B66;
+    border: 2px solid #0D3B66;
+}
+.BusEmail .Prt2{
+    margin-top: 300px;
+}
+.BusEmail .Prt2 h2{
+    color: #0B3D66;
+    font-size: 52px;
+    font-weight: 700;
+    margin-left: 290px;
+}
+.BusEmail .Prt2 p{
+    font-size: 16px;
+    margin-left: 320px;
+}
+
+
+.BusEmail .Prt3{
+    margin-top: 50px;
+}
+.BusEmail .Prt3 .Boxes1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.BusEmail .Prt3 .Boxes1 .Box1 img, .Box2 img, .Box3 img, .Box4 img, .Box5 img{
+    height: 80px;
+    width: 190px;
+}
+.BusEmail .Prt3 .Boxes2 .Box1 img, .Box2 img, .Box3 img, .Box4 img, .Box5 img {
+    height: 80px;
+    width: 190px;
+}
+.BusEmail .Prt3 .Boxes2{
+    display: flex;
+}

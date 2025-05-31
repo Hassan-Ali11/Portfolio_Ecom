@@ -1,0 +1,108 @@
+/* src/App.css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky;
+    top: 0;
+    backdrop-filter: blur(45px); */
+    color: #0D3B66;
+    transform: translateX(-20px);
+    width: 1275px;
+    height: 56px;
+    /* box-shadow: 2px 2px 2px black; */
+}
+.navbar-left .Solutionz h1{
+    font-weight: 100;
+    display: flex;
+    font-style: italic;
+    padding-left: 20px;
+    align-items: center;
+    list-style: none;
+    color: #0D3B66;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    color: #000000;
+}
+.navbar-links li {
+    margin-right: 20px;
+    position: relative;
+    font-size: 20px;
+}
+.navbar-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-size: 20px;
+}
+
+.navbar-links li ul {
+    display: none;
+    position: absolute;
+    width: 300px;
+    /* color: rgb(0, 0, 0); */
+    font-weight: 100;
+    font-size: 20px;
+}
+.navbar-links li ul h3{
+    color: black;
+    font-weight: 100;
+    font-size: 14px;
+}
+.navbar-links li ul h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 100;
+}
+.navbar-links li:hover ul {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    height: 300px;
+    width: 300px;
+    font-size: 16px;
+    text-align: start;
+}
+.auth-actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 16px;
+    color:#fdfdfd;
+    list-style: none;
+}
+.auth-actions .SignIn{
+    transform: translateX(-190px);
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.get-started-btn {
+    margin-left: 10px;
+}
+ 
+.get-started-btn button {
+    position: relative;
+    cursor: pointer;
+    height: 48px;
+    width: 155px;
+    border-radius: 35px;
+    background-color: #0D3B66;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.get-started-btn button:hover {
+    background-color: #ffffff;
+    color: #0D3B66;
+    border: 2px solid #0D3B66;
+}

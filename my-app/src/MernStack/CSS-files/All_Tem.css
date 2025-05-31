@@ -1,0 +1,409 @@
+/* .Container .Part1 {
+    height: 305px;
+    width: auto;
+    background-color: #ebb0b0;
+}
+
+.Container .Part1 h1 {
+    font-size: 52px;
+    color: #0D3B66;
+    transform: translateY(100px);
+}
+
+.Container .Part1 h4 {
+    font-size: 19px;
+    color: black;
+    transform: translateY(85px);
+}
+.Container .Part1 .btn {
+    position: relative;
+    top: 110px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    border-radius: 35px;
+    background-color: #0D3B66;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.Container .btn:hover {
+    background-color: #ffffff;
+    color: #0D3B66;
+    border: 2px solid #0D3B66;
+}
+.Part1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Part2 {
+    display: flex;
+}
+
+.Sides {
+    display: flex;
+    width: 100%;
+}
+
+.Side1 {
+    width: 200px;
+    padding-right: 20px;
+}
+
+.Side2 {
+    width: 800px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.Side2 img {
+    width: calc(25% - 15px);
+    margin-bottom: 20px;
+}
+.Container .Part2 .Sides ul{
+    list-style-type: none;
+    padding: 0;
+}
+.Container .Part2 .Sides ul li {
+    margin-bottom: 15px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Container .Part2 .Sides li:hover{
+    color: #76a2cc;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.Container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    background-color: #f4f6f8;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.Part1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Part1 h1 {
+    font-size: 36px;
+    color: #222;
+}
+
+.Part1 h4 {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.Part1 .btn {
+    background-color: #007bff;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Part1 .btn:hover {
+    background-color: #0056b3;
+}
+
+
+.Part2 .Sides {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.Side1 {
+    flex: 1 1 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    min-width: 200px;
+    height: fit-content;
+}
+
+.Side1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Side1 li {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+    border-radius: 5px;
+    color: #333;
+}
+
+.Side1 li:hover {
+    background-color: #e8f0fe;
+    color: #007bff;
+}
+
+
+.Side2 {
+    flex: 4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.Side2 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Side2 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 768px) {
+    .Sides {
+        flex-direction: column;
+    }
+
+    .Side1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+.Container {
+    padding: 20px;
+}
+
+.Part1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Part1 h1 {
+    font-size: 32px;
+    color: #0D3B66;
+}
+
+.Part1 button {
+    padding: 10px 20px;
+    background-color: #0D3B66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Sides {
+    display: flex;
+}
+
+.Side1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.Side1 li {
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.Side1 li:hover {
+    color: #0D3B66;
+}
+
+.Side2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container for entire component */
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* Top header section */
+.Part1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Part1 h1 {
+    font-size: 2.5rem;
+    color: #0D3B66;
+    margin-bottom: 10px;
+}
+
+.Part1 h4 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    cursor: pointer;
+        height: 48px;
+        width: 175px;
+        border-radius: 35px;
+        background-color: #0D3B66;
+        color: #ffffff;
+        font-size: 1rem;
+        font-family: Times, serif;
+        margin-top: 30px;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+        color: #0D3B66;
+        border: 2px solid #0D3B66;
+}
+
+/* Layout for categories and templates */
+.Sides {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Sidebar categories */
+.Side1 {
+    flex: 1 1 200px;
+    margin-right: 20px;
+}
+
+.Side1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Side1 li {
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    width: 300px;
+    border-left: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Side1 li:hover,
+.Side1 li:focus {
+    background-color: #e6f0ff;
+    border-left: 4px solid #0047ab;
+}
+
+/* Template thumbnails */
+.Side2 {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.Side2 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Side2 img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .Sides {
+        flex-direction: column;
+    }
+
+    .Side1 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .Side2 img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Part1 h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

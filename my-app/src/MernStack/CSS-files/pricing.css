@@ -1,0 +1,1106 @@
+.pricing h1{
+    height: 200px;
+    width: 800px;
+    color: #0D3B66;
+    font-size: 52px;
+    margin-top: 200px;
+    margin-left: 270px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.pricing h2{
+    transform: translateY(-170px);
+    padding-left: 540px;
+    font-size: 52px;
+    color: #0D3B66;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.pricing span{
+    position: relative;
+    bottom: 170px;
+    font-size: 18px;
+    margin-left: 360px;
+}
+.pricing .buttons{
+    display: flex;
+    width: 225px;
+    height: 45px;
+    transform: translateX(500px);
+    position: relative;
+    bottom: 140px;
+    border-radius: 25px;
+}
+.pricing .Ecom-btn {
+     cursor: pointer;
+     height: 50px;
+     width: 125px;
+     border-radius: 35px;
+     background-color: #0D3B66;
+     color: #ffffff;
+     font-size: 1rem;
+     font-family: Times, serif;
+     border: 2px solid transparent;
+     transition: all 0.3s ease;
+ }
+
+.pricing .Ecom-btn:hover {
+     background-color: #ffffff;
+     color: #0D3B66;
+     border: 2px solid #0D3B66;
+ }
+.pricing .Info-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 125px;
+    border-radius: 35px;
+    color: #0D3B66;
+    background-color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    border: 2px solid #0D3B66;
+    transition: all 0.3s ease;
+}
+
+.pricing .Info-btn:hover {
+    color: #ffffff;
+    background-color: #0D3B66;
+    border: 2px solid #0D3B66;
+}
+
+
+.Info-pg{
+    display: flex;
+    justify-content: center;
+    /* height: 800px; */
+}
+.Info-pg .landing-Page{
+    height: 750px;
+    width: 355px;
+    background-color: rgb(236, 236, 234);
+    position: relative;
+    left: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Info-pg .landing-Page .heading h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Info-pg .landing-Page p{
+    color: #555555;
+    font-size: 16px;
+}
+.Info-pg .landing-Page h3 {
+    text-decoration: line-through;
+    color: #555555;
+    font-size: 13px;
+}
+.Info-pg .landing-Page span{
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
+.Info-pg .landing-Page h4 {
+    color: #007BED;
+    font-size: 15px;
+    font-weight: 500;
+    transform: translateY(-20px);
+}
+.Info-pg .landing-Page main{
+    color: #111111;
+    transform: translateY(-20px);
+    position: relative;
+    right:50px ;
+    font-size: 13px;
+}
+.landing-Page .Features h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.landing-Page .Features main{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    right: 50px;
+    transform: translateY(10px);
+}
+.landing-Page .Features span{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+}
+.landing-Page .Features pre{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: line-through;
+    top: 9px;
+}
+.landing-Page .Features p{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    color: #111111;
+}
+.landing-Page .Hosting h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.landing-Page .Hosting main{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    right: 50px;
+    transform: translateY(10px);
+}
+.landing-Page .Hosting span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+}
+.landing-Page .Hosting p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 7px;
+    color: #111111;
+}
+.landing-Page .Marketing h1 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+}
+.landing-Page .Marketing p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+    color: #111111;
+}
+.landing-Page .Marketing h3{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 12px;
+    color: black;
+    text-decoration: none;
+}
+.landing-Page .Marketing h4 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 22px;
+    color: black;
+    text-decoration: none;
+}
+.landing-Page .Marketing span{
+    font-size: 14px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+.landing-Page .Marketing main{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    /* right: 50px; */
+    top: 18px;
+    color: black;
+    text-decoration: none;
+}
+.landing-Page .Marketing h6{
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    bottom: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.Info-pg .Basic {
+    margin-right: 20px;
+    position: relative;
+    left: 30px;
+    background-color: rgb(236, 236, 234);
+    height: 750px;
+    width: 355px;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Info-pg .Basic .heading h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Info-pg .Basic p {
+    color: #555555;
+    font-size: 16px;
+}
+
+.Info-pg .Basic h3 {
+    text-decoration: line-through;
+    color: #555555;
+    font-size: 13px;
+}
+
+.Info-pg .Basic span {
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
+
+.Info-pg .Basic h4 {
+    color: #007BED;
+    font-size: 15px;
+    font-weight: 500;
+    transform: translateY(-20px);
+}
+
+.Info-pg .Basic main {
+    color: #111111;
+    transform: translateY(-20px);
+    position: relative;
+    right: 50px;
+    font-size: 13px;
+}
+
+.Basic .Features h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Basic .Features main {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translateY(10px);
+}
+
+.Basic .Features span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+}
+
+.Basic .Features pre {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: line-through;
+    top: 9px;
+}
+
+.Basic .Features p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    color: #111111;
+}
+
+.Basic .Hosting h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Basic .Hosting main {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translateY(10px);
+}
+
+.Basic .Hosting span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+}
+
+.Basic .Hosting p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 7px;
+    color: #111111;
+}
+
+.Basic .Marketing h1 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+}
+
+.Basic .Marketing p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+    color: #111111;
+}
+
+.Basic .Marketing h3 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.Basic .Marketing h4 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.Basic .Marketing span {
+    font-size: 14px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+
+.Basic .Marketing main {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.Basic .Marketing h6 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    bottom: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.Info-pg .Standard{
+    margin-right: 20px;
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    background-color: rgb(236, 236, 234);
+    height: 750px;
+    width: 355px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Info-pg .Standard .heading h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Info-pg .Standard p {
+    color: #555555;
+    font-size: 16px;
+}
+
+.Info-pg .Standard h3 {
+    text-decoration: line-through;
+    color: #555555;
+    font-size: 13px;
+}
+
+.Info-pg .Standard span {
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
+
+.Info-pg .Standard h4 {
+    color: #007BED;
+    font-size: 15px;
+    font-weight: 500;
+    transform: translateY(-20px);
+}
+
+.Info-pg .Standard main {
+    color: #111111;
+    position: relative;
+    right: 50px;
+    transform: translateY(-20px);
+    font-size: 13px;
+}
+
+.Standard .Features h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Standard .Features main {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translateY(10px);
+}
+
+.Standard .Features span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+}
+
+.Standard .Features pre {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: line-through;
+    top: 9px;
+}
+
+.Standard .Features p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 1px;
+    color: #111111;
+}
+
+.Standard .Hosting h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Standard .Hosting main {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translateY(10px);
+}
+
+.Standard .Hosting span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+}
+
+.Standard .Hosting p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 7px;
+    color: #111111;
+}
+
+.Standard .Marketing h1 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+}
+
+.Standard .Marketing p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+    color: #111111;
+}
+
+.Standard .Marketing h3 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 12px;
+    color: black;
+    text-decoration: none;
+}
+.Standard .Marketing h4 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.Standard .Marketing span {
+    font-size: 14px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+}
+
+.Standard .Marketing main {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.Standard .Marketing h6 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    bottom: 22px;
+    color: black;
+    text-decoration: noStandard
+}
+.pricing2{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgb(235, 230, 230);
+    transform: translateY(70px);
+    height: 225px;
+    width: 1115px;
+    position: relative;
+    left: 70px;
+    margin-bottom: 200px;
+}
+.pricing2 .item1{
+    height: 175px;
+    width: 600px;
+    font-size: 16px;
+    padding: 16px;
+}
+.pricing2 .item2{
+    height: 135px;
+    width: 500px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 35px;
+    margin-right: 20px;
+    padding: 24px;
+}
+.pricing2 .item3{
+height: 135px;
+    width: 500px;
+    font-size: 16px;
+    padding: 24px;
+    margin-top: 20px;
+    border-radius: 35px;
+    background-color:white;
+}
+.pricing2 .item4{
+height: 150px;
+    width: 500px;
+    font-size: 16px;
+    padding: 24px;
+    margin-top: 20px;
+    border-radius: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+
+
+.quest-heading h1{
+    padding-left: 300px;
+    font-size: 52px;
+    font-weight: 600;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:#0D3B66;
+}
+.quest-heading p{
+    width: 300px;
+    font-size: 18px;
+    margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+/* Wrapper for the eCommerce pricing cards */
+.ECom-pg1,
+.ECom-pg2,
+.ECom-pg3 {
+    margin-right: 20px;
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    background-color: rgb(236, 236, 234);
+    height: 750px;
+    width: 355px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.ECom-pg1 .heading h1,
+.ECom-pg2 .heading h1,
+.ECom-pg3 .heading h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ECom-pg1 p,
+.ECom-pg2 p,
+.ECom-pg3 p {
+    color: #555555;
+    font-size: 16px;
+}
+
+.ECom-pg1 h3,
+.ECom-pg2 h3,
+.ECom-pg3 h3 {
+    text-decoration: line-through;
+    color: #555555;
+    font-size: 13px;
+}
+
+.ECom-pg1 span,
+.ECom-pg2 span,
+.ECom-pg3 span {
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
+
+.ECom-pg1 h4,
+.ECom-pg2 h4,
+.ECom-pg3 h4 {
+    color: #007BED;
+    font-size: 15px;
+    font-weight: 500;
+    transform: translateY(-20px);
+}
+
+.ECom-pg1 main,
+.ECom-pg2 main,
+.ECom-pg3 main {
+    color: #111111;
+    position: relative;
+    right: 50px;
+    transform: translateY(-20px);
+    font-size: 13px;
+}
+
+/* Features Section */
+.ECom-pg1 .Features h1,
+.ECom-pg2 .Features h1,
+.ECom-pg3 .Features h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ECom-pg1 .Features main,
+.ECom-pg2 .Features main,
+.ECom-pg3 .Features main {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translateY(10px);
+    position: relative;
+    right: 50px;
+}
+
+.ECom-pg1 .Features span,
+.ECom-pg2 .Features span,
+.ECom-pg3 .Features span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+}
+
+.ECom-pg1 .Features pre,
+.ECom-pg2 .Features pre,
+.ECom-pg3 .Features pre {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: line-through;
+    position: relative;
+    top: 9px;
+}
+
+.ECom-pg1 .Features p,
+.ECom-pg2 .Features p,
+.ECom-pg3 .Features p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #111111;
+}
+
+/* Hosting Section */
+.ECom-pg1 .Hosting h1,
+.ECom-pg2 .Hosting h1,
+.ECom-pg3 .Hosting h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ECom-pg1 .Hosting main,
+.ECom-pg2 .Hosting main,
+.ECom-pg3 .Hosting main {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translateY(10px);
+    position: relative;
+    right: 50px;
+}
+
+.ECom-pg1 .Hosting span,
+.ECom-pg2 .Hosting span,
+.ECom-pg3 .Hosting span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+}
+
+.ECom-pg1 .Hosting p,
+.ECom-pg2 .Hosting p,
+.ECom-pg3 .Hosting p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 7px;
+    color: #111111;
+}
+
+/* Checkout Section */
+.ECom-pg1 .Checkout h1,
+.ECom-pg2 .Checkout h1,
+.ECom-pg3 .Checkout h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ECom-pg1 .Checkout p,
+.ECom-pg2 .Checkout p,
+.ECom-pg3 .Checkout p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #111111;
+}
+
+/* Marketing Section */
+.ECom-pg1 .Marketing h1,
+.ECom-pg2 .Marketing h1,
+.ECom-pg3 .Marketing h1 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+}
+
+.ECom-pg1 .Marketing p,
+.ECom-pg2 .Marketing p,
+.ECom-pg3 .Marketing p {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+    color: #111111;
+}
+
+/* Customization Section */
+.ECom-pg1 .Customization h1,
+.ECom-pg2 .Customization h1,
+.ECom-pg3 .Customization h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ECom-pg1 .Customization p,
+.ECom-pg2 .Customization p,
+.ECom-pg3 .Customization p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #111111;
+}
+
+/* International Section */
+.ECom-pg1 .International h1,
+.ECom-pg2 .International h1,
+.ECom-pg3 .International h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ECom-pg1 .International p,
+.ECom-pg2 .International p,
+.ECom-pg3 .International p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #111111;
+}
+
+
+
+
+
+
+.Ecom-page{
+    display: flex;
+    justify-content: space-evenly;
+    height: 1500px;
+}
+.E-pg {
+    gap: 20px;
+    margin-right: 20px;
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    background-color: rgb(236, 236, 234);
+    height: 1450px;
+    width: 355px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.E-pg .heading h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.E-pg p {
+    color: #555555;
+    font-size: 16px;
+}
+
+.E-pg h3 {
+    text-decoration: line-through;
+    color: #555555;
+    font-size: 13px;
+}
+
+.E-pg span {
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
+
+.E-pg h4 {
+    color: #007BED;
+    font-size: 15px;
+    font-weight: 500;
+    transform: translateY(-20px);
+}
+
+.E-pg main {
+    color: #111111;
+    position: relative;
+    right: 50px;
+    transform: translateY(-20px);
+    font-size: 13px;
+}
+
+.E-pg .Features h1,
+.E-pg .Hosting h1,
+.E-pg .Checkout h1,
+.E-pg .Marketing h1,
+.E-pg .Customization h1,
+.E-pg .International h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.E-pg .Features main,
+.E-pg .Hosting main {
+    font-size: 14px;
+    font-weight: 100;
+    transform: translateY(10px);
+}
+
+.E-pg .Features span,
+.E-pg .Hosting span {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 18px;
+}
+
+.E-pg .Features pre {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    text-decoration: line-through;
+    top: 9px;
+}
+
+.E-pg .Features p,
+.E-pg .Hosting p,
+.E-pg .Checkout p,
+.E-pg .Marketing p,
+.E-pg .Customization p,
+.E-pg .International p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #111111;
+    position: relative;
+    top: 1px;
+}
+
+.E-pg .Marketing h3,
+.E-pg .Marketing h4 {
+    font-size: 14px;
+    font-weight: 100;
+    position: relative;
+    top: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.E-pg .Marketing span,
+.E-pg .Marketing main,
+.E-pg .Marketing h6 {
+    font-size: 14px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.questions ul {
+    color: #0D3B66;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.faq-item {
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color:#0B3D66;
+    color: #fff;
+}
+
+.faq-question {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    padding-left: 15px;
+    color: #0B3D66;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.faq-answer div {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-weight: 100;
+}
+
+.details {
+    margin-top: 5px;
+    color: #0B3D66;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.questionsP ul {
+    color: #0D3B66;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.faq-itemP {
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover: Change background and text color of everything inside */
+.faq-itemP:hover {
+    background-color: #0B3D66;
+    color: #fff;
+}
+
+/* Ensure child elements also change color */
+.faq-itemP:hover .faq-questionP,
+.faq-itemP:hover .faq-answerP,
+.faq-itemP:hover .faq-answerP div {
+    color: #fff;
+}
+
+.faq-questionP {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.faq-answerP {
+    margin-top: 10px;
+    padding-left: 15px;
+    color: #0B3D66;
+    /* default color */
+    font-size: 0.95rem;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+.faq-answerP div {
+    margin-bottom: 5px;
+}
+
+.titleP {
+    font-weight: 100;
+}
+
+.detailsP {
+    margin-top: 5px;
+    color: #0B3D66;
+}

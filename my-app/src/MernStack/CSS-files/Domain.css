@@ -1,0 +1,376 @@
+.Domain{
+    margin-top: 75px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Domain .Part-1{
+    height: 700px;
+    width: 1250px;
+    background-color: #a57e7e;
+}
+.Domain .Part-1 h1{
+    color: #0D3B66;
+    font-size: 52px;
+    padding-left: 250px;
+    padding-top: 150px;
+}
+.Domain .Part-1 h2 {
+    color: #0D3B66;
+    font-size: 52px;
+    padding-left: 470px;
+    position: relative;
+    bottom:40px;
+}
+.Domain .Part-1 .pla-hol{
+    width: 850px;
+    height: 45px;
+    position: relative;
+    bottom: 60px;
+    transform: translateX(170px);
+}
+.Domain .Part-1 .Category{
+    height: 50px;
+    width: 850px;
+    display: flex;
+    margin-left: 200px;
+    justify-content: space-between;
+    color:black;
+    background-color: white;
+}
+.Domain .Part-1 .Category h3{
+    font-size: 18px;
+}
+.Domain .Part-1 .Category h4{
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
+    bottom:9px;
+}
+.Domain .Part-1 .Category h5{
+    position: relative;
+    bottom: 12px;
+    font-size: 18px;
+}
+.Domain .Part-1 .Category h6{
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+}
+.Domain .Boxes .Box-P1{
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.Domain .Boxes .Box-P1 h2{
+    font-size: 48px;
+}
+.Domain .Boxes .Box-P1 .Price1 h4{
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
+.Domain .Boxes .Box-P1 .Price1 h5{
+    text-decoration: line-through;
+    color: gray;
+    position: relative;
+    left:20px;
+    font-weight: 100;
+    bottom: 47px;
+    font-size: 20px;
+}
+.Domain .Boxes .Box-P1 main{
+    position: relative;
+    bottom: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.Domain .Boxes .Box-P2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Domain .Boxes .Box-P2 h2 {
+    font-size: 48px;
+}
+
+.Domain .Boxes .Box-P2 .Price1 h4 {
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
+
+.Domain .Boxes .Box-P2 .Price1 h5 {
+    text-decoration: line-through;
+    color: gray;
+    position: relative;
+    left: 20px;
+    font-weight: 100;
+    bottom: 47px;
+    font-size: 20px;
+}
+
+.Domain .Boxes .Box-P2 main {
+    position: relative;
+    bottom: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.Domain .Box-P1 .Box1, .Box2, .Box3{
+    height: 210px;
+    width: 340px;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+.Domain .Box-P1 .Box1 .Price1, .Box2 .Price1, .Box3 .Price1{
+    display: flex;
+}
+.Domain .Box-P2 .Box1, .Box2, .Box3{
+    height: 210px;
+    width: 340px;
+    border: 2px solid grey;
+    background-color: white;
+}
+.Domain .Box-P2 .Box1 .Price1, .Box2 .Price1, .Box3 .Price1{
+    display: flex;
+}
+.Domain .Boxes .Box-P3{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+}
+
+
+.Domain .Boxes .Box-P3 h2 {
+    font-size: 48px;
+}
+
+.Domain .Boxes .Box-P3 .Price1 h4 {
+    position: relative;
+    bottom: 40px;
+    font-size: 20px;
+}
+
+.Domain .Boxes .Box-P3 .Price1 h5 {
+    text-decoration: line-through;
+    color: gray;
+    position: relative;
+    left: 20px;
+    font-weight: 100;
+    bottom: 47px;
+    font-size: 20px;
+}
+
+.Domain .Boxes .Box-P3 main {
+    position: relative;
+    bottom: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.Domain .Box-P3 .Box1, .Box2{
+    height: 210px;
+    width: 340px;
+    border: 2px solid grey;
+    background-color: white;
+}
+.Domain .Box-P3 .Box1 .Price1, .Box2 .Price1{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+/*.l-heading {
+    margin-top: 150px;
+    margin-left: 350px;
+    height: 200px;
+    width: 680px;
+}
+
+.l-heading h1 {
+    color: #0D3B66;
+    font-size: 52px;
+}
+
+.l-heading p {
+    transform: translateY(-20px);
+    color: black;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.l-heading .btn {
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+    height: 48px;
+    width: 155px;
+    border-radius: 35px;
+    background-color: #0D3B66;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    transform: translateX(200px);
+}
+
+.l-heading .btn:hover {
+    background-color: #ffffff;
+    color: #0D3B66;
+    border: 2px solid #0D3B66;
+}
+
+.Footer1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.Footer1 .Part1 {
+    height: 200px;
+    width: 300px;
+    transform: translateX(-50px);
+    color: #0D3B66;
+    font-size: 19px;
+}
+
+.Footer1 .Part1 p {
+    color: #656565;
+    font-size: 18px;
+}
+
+.Footer1 .Part2 {
+    height: 200px;
+    width: 250px;
+}
+
+.Footer1 .Part2 .heading h5,
+.Footer1 .Part4 .heading h5,
+.Footer1 .Part3 .heading h5 {
+    transform: translateY(-10px);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.Footer1 .Part2 h5 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-40px);
+}
+
+.Part3 h5 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-40px);
+}
+
+.Part4 h5 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-40px);
+}
+
+
+.Footer1 .Part2 h4 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-20px);
+} 
+.Footer1 .Part3 h4 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-20px);
+}
+
+.Footer1 .Part4 h4 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-20px);
+}
+
+.Footer1 .Part2 h6 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-70px);
+}
+
+.Footer1 .Part3 h6 {
+    font-weight: 100;
+    font-size: 16px;
+    transform: translateY(-70px);
+}
+
+.Footer1 .Part2 .links main,
+.Footer1 .Part3 .links main,
+.Footer1 .Part4 .links main {
+    font-size: 16px;
+    transform: translateY(-100px);
+    position: relative;
+    right: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.Footer1 .Part2 .links span,
+.Footer1 .Part3 .links span {
+    bottom: 95px;
+    position: relative;
+}
+
+.Footer1 .Part4 .links span {
+    bottom: 50px;
+    position: relative;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.Footer1 .Part4 .links main {
+    transform: translateY(-60px);
+}
+
+.Footer1 .Part3 {
+    height: 200px;
+    width: 250px;
+}
+
+.Footer1 .Part4 {
+    height: 200px;
+    width: 250px;
+}
+
+.Footer2 {
+    margin-top: 50px;
+    padding-left: 450px;
+}
+
+.Footer2 span {
+    font-size: 20px;
+}
+
+.Footer2 main{
+    font-size: 20px;
+    padding-left: 790px;
+}
+
+.Paypal-img img {
+    margin-left: 450px;
+} */

@@ -1,0 +1,144 @@
+.Templates-Container{
+    /* margin-top: 70px; */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.Templates-Container .Part1{
+    height: 305px;
+    /* width: 1200px; */
+    width: auto;
+    background-color: #ebb0b0;
+}
+.Templates-Container .Part1 h1{
+    font-size: 52px;
+    color: #0D3B66;
+    /* margin-left: 400px; */
+    transform: translateY(100px);
+}
+.Templates-Container .Part1 h4{
+    font-size: 19px;
+    color: black;
+    /* margin-left: 320px; */
+    transform: translateY(85px);
+}
+.Templates-Container .Part1 .btn{
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    border-radius: 35px;
+    background-color: #0D3B66;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    /* transform: translateX(550px); */
+}
+
+.Templates-Container .btn:hover {
+    background-color: #ffffff;
+    color: #0D3B66;
+    border: 2px solid #0D3B66;
+}
+.Templates-Container .Part2{
+    margin-top: 50px;
+}
+.Templates-Container .heading{
+    display: flex;
+    
+}
+.Templates-Container .Part2 .heading h4{
+    font-size: 23px;
+    color: #0D3B66;
+    /* margin-left: 70px; */
+}
+.Templates-Container .heading .btn-Info{
+    color: #ffffff;
+}
+.Templates-Container .heading .btn-Info{
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    height: 48px;
+    width: 130px;
+    border-radius: 35px;
+    background-color: #0D3B66;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    transform: translateX(650px);
+}
+
+.Templates-Container .btn-Info:hover {
+    background-color: #ffffff;
+    color: #0D3B66;
+    border: 2px solid #0D3B66;
+}
+.Templates-Container .heading h4 {
+    font-size: 23px;
+    color: #0D3B66;
+    margin-left: 70px;
+}
+.Templates-Container .Part2 .Images{
+    display: flex;
+    justify-content: space-between;
+}
+.Templates-Container .Part2 .Images img{
+    margin-left: 30px;
+    height: 320px;
+    width: 270px;
+    border-radius: 7px;
+}
+
+
+.Templates-Container .Part3{
+    margin-top: 50px;
+    background-color:#ebb0b0 ;
+}
+.Templates-Container .Part3 .heading {
+    display: flex;
+}
+.Templates-Container .Part3 .heading h4 {
+    font-size: 23px;
+    color: #0D3B66;
+    margin-left: 70px;
+}
+.Templates-Container .Part3 .heading .btn-EC{
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    height: 48px;
+    width: 130px;
+    border-radius: 35px;
+    background-color: #0D3B66;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: Times, serif;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    transform: translateX(650px);
+}
+
+.Templates-Container .Part3 .heading .btn-EC:hover {
+    background-color: #ffffff;
+    color: #0D3B66;
+    border: 2px solid #0D3B66;
+}
+.Templates-Container .Part3 .Images {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .Templates-Container .Part3 .Images main{
+    left: 200px;
+} */
+.Templates-Container .Part3 .Images img {
+    height: 320px;
+    width: 270px;
+    border-radius: 7px;
+}
