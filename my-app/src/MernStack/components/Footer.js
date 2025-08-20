@@ -108,9 +108,6 @@ function Footer() {
 
       {/* F3 Section */}
       <div className='F3' ref={f3Ref}>
-        {/* <div className='S-M'>
-          <h4>Social Media Links</h4>
-        </div> */}
         <span>© 2018-2025, G&B Solutionz Pvt Ltd</span>
         <main>Made in Pakistan</main>
       </div>
