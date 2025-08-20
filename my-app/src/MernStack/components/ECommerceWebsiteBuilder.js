@@ -6,7 +6,6 @@ import Img3 from './Template_images/m89.avif';
 import Img4 from './Template_images/m90.avif';
 import Img5 from './Template_images/m91.avif';
 import Img6 from './Template_images/m94.avif';
-// import Img7 from './Template_images/m92.avif';
 import Img9 from './Template_images/m95.avif';
 import Img11 from './Template_images/m88.avif';
 import Img12 from './Template_images/m96.avif';
