@@ -103,11 +103,6 @@ const App = () => {
         {/* Conditional rendering: Only show the blog list on /blogs route */}
         {location.pathname === '/blogs' && blogs.map(blog => (
           <div key={blog._id} className="blog-box">
-            {/* <Link to={`/blog/${blog._id}`} style={{ textDecoration: 'none', color: 'black' }}>
-              <h3>{blog.title}</h3>
-              <p>{new Date(blog.date).toLocaleDateString()}</p>
-              <img src={blog.image} alt={blog.title} />
-            </Link> */}
           </div>
         ))}
       </div>
