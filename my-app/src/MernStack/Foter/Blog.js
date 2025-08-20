@@ -6,8 +6,6 @@ import Img3 from './img/m100.jpg';
 import Img4 from './img/n3.avif';
 import Img5 from './img/n2.jpg';
 import Img6 from './img/n8.avif';
-// import Img7 from './img/m6.webp';
-// import Img8 from './img/m7.jpg';
 import Img9 from './img/n4.avif';
 import Img10 from './img/n5.avif';
 import Img11 from './img/n6.avif';
